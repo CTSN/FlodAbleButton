@@ -1,5 +1,7 @@
 ### 可折叠按钮
 
+[源码解析](library/README.md)
+
 效果图展示：
 
 <img src="img/07.gif"> <img src="img/09.gif">
