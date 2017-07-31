@@ -1,10 +1,10 @@
-###可折叠按钮
+### 可折叠按钮
 
 效果图展示：
 
 <img src="img/07.gif"> <img src="img/09.gif">
 
-####导入
+#### 导入
 
 **Gradle 添加依赖**
 
@@ -25,7 +25,7 @@ dependencies {
 }
 ```
 
-####使用
+### 使用
 
 **属性了解**
 
@@ -85,7 +85,7 @@ fb.setOnClickListener(new FlodableButton.OnClickListener() {
 
 <font color="red">注意：必须使用自己的点击监听</font>
 
-##License
+## License
 
 ```
 Copyright 2017 CTSN
