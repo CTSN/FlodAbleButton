@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlodableButton">
+        <!--字体大小-->
+        <attr name="text_size" format="float"/>
+        <!--折叠速度-->
+        <attr name="speed" format="float"/>
+        <!--控件背景颜色-->
+        <attr name="bac_color" format="color"/>
+        <!--字体颜色-->
+        <attr name="text_color" format="color"/>
+        <!--小圆颜色-->
+        <attr name="inner_circle_color" format="color"/>
+        <!--文本-->
+        <attr name="text" format="string"/>
+        <!--展开图标-->
+        <attr name="open_icon" format="reference"/>
+        <!--挂壁图标-->
+        <attr name="close_icon" format="reference"/>
+        <!--图标旋转角度-->
+        <attr name="degrees" format="float"/>
+    </declare-styleable>
+
+</resources>

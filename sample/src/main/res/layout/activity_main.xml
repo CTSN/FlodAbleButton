@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.roy.foldablebutton.MainActivity">
+
+    <com.roy.library.FlodableButton
+        android:id="@+id/fb"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:bac_color="#ff0"
+        app:close_icon="@mipmap/icon_2"
+        app:inner_circle_color="@color/black"
+        app:open_icon="@mipmap/icon"
+        app:speed="100"
+        app:text="地铁／景区／商圈／城市"
+        app:text_color="@color/black"
+        app:text_size="16"
+        app:degrees="90"/>
+
+</LinearLayout>
