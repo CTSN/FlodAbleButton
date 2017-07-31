@@ -291,16 +291,18 @@ public class FlodableButton extends ViewGroup {
 
     private boolean judgeCanClick(float x, float y) {
         boolean canClick;
-        if (isIncrease)     //伸展状态
-            if (x < width && y < height)
+        if (isIncrease) {   //伸展状态
+            if (x < width && y < height) {
                 canClick = true;
-            else
+            }else {
                 canClick = false;
-        else {
-            if (x < center * 2 && y < center * 2)  //在圆内
+            }
+        }else {
+            if (x < center * 2 && y < center * 2) {  //在圆内
                 canClick = true;
-            else
+            }else {
                 canClick = false;
+            }
         }
 
         return canClick;
