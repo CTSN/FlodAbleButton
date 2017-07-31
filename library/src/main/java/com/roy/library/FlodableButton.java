@@ -224,6 +224,9 @@ public class FlodableButton extends ViewGroup {
             height = tHeight*2;
         } else {
             height = MeasureSpec.getSize(heightMeasureSpec);
+            if (height<tHeight*2){
+                height = tHeight*2;
+            }
         }
     }
 
