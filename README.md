@@ -12,10 +12,10 @@
 
 ```Groovy
 allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
+    repositories {
+	...
+	maven { url 'https://jitpack.io' }
+    }
 }
 ```
 
@@ -23,7 +23,7 @@ allprojects {
 
 ```Groovy
 dependencies {
-        compile 'com.github.CTSN:FlodAbleButton:1.1'
+    compile 'com.github.CTSN:FlodAbleButton:1.1'
 }
 ```
 
