@@ -15,7 +15,7 @@
         app:close_icon="@mipmap/icon_2"
         app:inner_circle_color="@color/black"
         app:open_icon="@mipmap/icon"
-        app:speed="100"
+        app:speed="60"
         app:text="地铁／景区／商圈／城市"
         app:text_color="@color/black"
         app:text_size="16"
