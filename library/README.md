@@ -209,7 +209,7 @@ TextView最大拉伸距离就是自身，控件拉伸距离在上面我们也已
 ```Xml
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="StretchableFloatingButton">
+    <declare-styleable name="FlodableButton">
         <!--字体大小-->
         <attr name="text_size" format="float"/>
         <!--折叠速度-->
@@ -249,22 +249,20 @@ TextView最大拉伸距离就是自身，控件拉伸距离在上面我们也已
     android:background="@color/colorPrimary"
     tools:context="com.roy.stretchablefloatingbutton.MainActivity">
     
-    <com.roy.stretchablefloatingbutton.StretchableFloatingButton
-        android:id="@+id/text"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="160dp"
-        app:bac_color="#ff0"
-        app:close_icon="@mipmap/icon_2"
-        app:inner_circle_color="@color/black"
-        app:open_icon="@mipmap/icon"
-        app:speed="100"
-        app:text="地铁／景区／商圈／城市"
-        app:text_color="@color/black"
-        app:text_size="16"
-        app:degrees="90"/>
+    <com.roy.library.FlodableButton
+            android:id="@+id/fb"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            app:bac_color="#ff0"
+            app:close_icon="@mipmap/icon_2"
+            app:inner_circle_color="@color/black"
+            app:open_icon="@mipmap/icon"
+            app:speed="60"
+            app:text="地铁／景区／商圈／城市"
+            app:text_color="@color/black"
+            app:text_size="16"
+            app:degrees="90"/>
 
 </LinearLayout>
 
@@ -290,9 +288,9 @@ public interface FoldListener{
 使用
 
 ```Java
-sfb.setFoldListener(new StretchableFloatingButton.FoldListener() {
+sfb.setFoldListener(new FlodableButton.FoldListener() {
     @Override
-    public void onFold(boolean isIncrease, StretchableFloatingButton sfb) {
+    public void onFold(boolean isIncrease, FlodableButton sfb) {
         String text = isIncrease? "展开了":"折叠了";
         Toast.makeText(MainActivity.this,text,Toast.LENGTH_SHORT).show();
     }
@@ -325,9 +323,9 @@ sfb.setFoldListener(new StretchableFloatingButton.FoldListener() {
 在Activity中使用
 
 ```Java
-sfb.setOnClickListener(new StretchableFloatingButton.OnClickListener() {
+sfb.setOnClickListener(new FlodableButton.OnClickListener() {
 	@Override
-	public void onClick(StretchableFloatingButton sfb) {
+	public void onClick(FlodableButton sfb) {
     	//点击事件处理
 	}
 }
