@@ -4,7 +4,7 @@
 
 效果图展示：
 
-<img src="img/07.gif"> <img src="img/09.gif">
+<img src="img/08.gif"> <img src="img/09.gif">
 
 #### 导入
 
@@ -32,15 +32,15 @@ dependencies {
 **属性了解**
 
 ```
-app:bac_color="#ff0"  						//背景颜色
-app:close_icon="@mipmap/icon_2"  			//关闭图标
+app:bac_color="#ff0"  				//背景颜色
+app:close_icon="@mipmap/icon_2"  		//关闭图标
 app:inner_circle_color="@color/black"		//小圆颜色
-app:open_icon="@mipmap/icon"				//展开图标
-app:speed="100"								//折叠速度
-app:text="地铁／景区／商圈／城市"				 //文本
-app:text_color="@color/black"				//字体颜色
-app:text_size="16"							//字体大小
-app:degrees="90"							//旋转角度
+app:open_icon="@mipmap/icon"			//展开图标
+app:speed="100"					//折叠速度
+app:text="地铁／景区／商圈／城市"		       //文本
+app:text_color="@color/black"			//字体颜色
+app:text_size="16"				//字体大小
+app:degrees="90"				//旋转角度
 ```
 
 **在xml中使用**
