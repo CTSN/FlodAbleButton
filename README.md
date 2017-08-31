@@ -23,7 +23,7 @@ allprojects {
 
 ```Groovy
 dependencies {
-   compile 'com.github.CTSN:FlodAbleButton:1.1'
+   compile 'com.github.CTSN:FlodAbleButton:1.0.1''
 }
 ```
 
