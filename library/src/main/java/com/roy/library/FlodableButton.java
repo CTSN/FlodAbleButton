@@ -282,7 +282,6 @@ public class FlodableButton extends ViewGroup {
                 break;
             case MotionEvent.ACTION_UP:
                 if (canClick && onClickListener != null && isEnabled()) {
-                    Log.i("TAG","---->");
                     onClickListener.onClick(sfb);
                 }
                 break;
